@@ -1,0 +1,225 @@
+/* navbar */
+.navbar{
+    font-size: xx-large;
+    font-family: cursive;
+    color: bisque;
+}
+
+/* home-page */
+.new{ 
+    background-image: url(./images/back1.webp);
+    background-size:cover;
+    padding: 97px;
+
+}
+.new h1{
+    color: bisque;
+    font-size: xxx-large;
+    font-family: cursive;
+}
+.new p{
+    font-size: medium;
+    color: white;
+
+}
+.new button{
+    border: none;
+    margin: 12px;
+    padding: 15px;
+    font-size: large;
+    border-radius: 10px;
+    border: 1px solid  bisque;
+    color: white;
+    background-color: transparent;
+}
+.new button:hover{
+    background-color: bisque;
+    color: black;
+}
+
+/* food-page */
+.card h1{
+    font-size: xxx-large;
+    margin: 20px;
+    color:bisque;
+    font-family: cursive;
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    
+}
+.img1 img{
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+    box-shadow: 4px 4px 10px gray;
+    border-radius: 20px;
+
+}
+.img1 p{
+    text-align: center;
+    font-size: xx-large;
+    font-family: cursive;
+    color: burlywood;
+}
+
+/* team-section */
+.section{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: -33px;
+    background-size: cover;
+}
+.section .item{
+    padding: 30px;
+    margin: 30px;
+    box-shadow: 2px 2px 4px gray;
+    border: 1px solid bisque;
+    border-radius: 5px;
+    
+}
+.section .item p{
+    font-size: small;
+    font-family: cursive
+}
+.section .item h2{
+    font-size: xx-large;
+    font-family: cursive;
+}
+.section .item:hover{
+    background-color: bisque;
+    color: black;
+}
+.team{
+    text-align: center;
+    margin: 20px;
+    font-size: xxx-large;
+    font-family: cursive;
+    color: bisque;
+}
+
+/* about-section */
+.about{
+    text-align: center;
+    margin: 20px;
+    font-size: xxx-large;
+    font-family: cursive;
+    color: bisque;
+}
+
+.new2{ 
+    background-image: url(./images/back2.jpg);
+    background-size:cover;
+    padding: 97px;
+    font-size: xx-large;
+    font-family: cursive;
+    color: brown;
+}
+
+/* service-section */
+.main2{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: -33px;
+    background-size: cover;
+}
+.main2 .item2{
+    padding: 30px;
+    margin: 30px;
+    box-shadow: 2px 2px 4px gray;
+    border: 1px solid bisque;
+    border-radius: 5px;
+    
+}
+.main2 .item2 p{
+    font-size: small;
+    font-family: cursive
+}
+.main2 .item2 h2{
+    font-size: xx-large;
+    font-family: cursive;
+}
+.main2 .item2:hover{
+    background-color: bisque;
+    color: black;
+}
+.card2{
+    text-align: center;
+    margin: 20px;
+    font-size: xxx-large;
+    font-family: cursive;
+    color: bisque;
+}
+
+/* contact-section */
+.paraent{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 2px 2px 4px gray;
+    border-radius: 5px;
+}
+.card3{
+    text-align: center;
+    margin: 20px;
+    font-size: xxx-large;
+    font-family: cursive;
+    color: bisque;
+}
+
+/* footer section */
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: bisque;
+
+}
+.footer.abc{
+ margin: 27px;
+ justify-items: flex-start;
+}
+.footer .footer1{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    
+
+}
+.footer .footer2{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+.footer .footer3{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+.footer .footer4{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+ .button{
+    padding: 13px;
+    border: none;
+    margin-top: 35px;
+    border-radius: 10px;
+    font-size: larger;
+}
